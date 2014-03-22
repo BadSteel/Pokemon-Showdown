@@ -1154,7 +1154,7 @@ kozman: 'koz',
 			'<b><font color=#909060>Normal:</b> </font>miloticnob</font><br />' +
 			'<b><font color=#9d8930>Rock:</b> </font>Neon Lights</font><br />' +
 			'<b><font color=#e16c17>Fire:</b> </font>Ewok</font><br />' +
-			'<b><font color=#a3a3c2>Steel:</b> </font>Bayspot</font><br />' +
+			'<b><font color=#a3a3c2>Steel:</b> </font>BadSteel</font><br />' +
 			'<b><font color=#5eab37>Grass:</b> </font>Gym Leader Sam<br />' +
 			'<b><font color=#95a31d>Bug:</b> </font>hostageclam<br />' +
 			'<b><font color=#f62463>Psychic:</b> </font>saira<br />' +
@@ -1167,6 +1167,17 @@ kozman: 'koz',
 			'<b><font color=#843484>Poison:</b> </font>CoolAsian<br />' +
 			'<b><font color=#5210f0>Dragon:</b> </font>Chikin Nuggetz<br />' +
 			'<b><font color=#594539>Dark:</b> </font>Palpitoad707<br />' +
+			'');
+	},
+	
+	oue4: 'ouelitefour',
+	ouelitefour: function(target, room, user) {
+		if(!this.canBroadcast()) return;
+		this.sendReplyBox('<b>OU Elite Four:</b> <br />' +
+			'<b><font color=#a3a3c2>Steel:</b> </font>Ross</font><br />' +
+			'<b><font color=#4475ec>Water:</b> </font>Marlon<br />' +
+			'<b><font color=#9683cd>Flying:</b> </font>Solor<br />' +
+			'<b><font color=#a72a23>Fighting:</b> </font>Kozman<br />' +
 			'');
 	},
 
